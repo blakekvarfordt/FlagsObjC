@@ -14,6 +14,10 @@
 		63985111230AFDBE0015A46B /* BTKState.m in Sources */ = {isa = PBXBuildFile; fileRef = 63985110230AFDBE0015A46B /* BTKState.m */; };
 		63985113230AFE900015A46B /* Flags in Resources */ = {isa = PBXBuildFile; fileRef = 63985112230AFE900015A46B /* Flags */; };
 		63985116230B012E0015A46B /* BTKStateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 63985115230B012E0015A46B /* BTKStateHelper.m */; };
+		63985119230B03D70015A46B /* BTKStateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63985118230B03D70015A46B /* BTKStateController.m */; };
+		6398511C230B0ACF0015A46B /* BTKStateCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6398511B230B0ACF0015A46B /* BTKStateCollectionViewController.m */; };
+		6398511F230B0C4F0015A46B /* BTKStateCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6398511E230B0C4F0015A46B /* BTKStateCollectionViewCell.m */; };
+		63985121230B124E0015A46B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63985120230B124E0015A46B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,13 @@
 		63985112230AFE900015A46B /* Flags */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Flags; sourceTree = "<group>"; };
 		63985114230B012E0015A46B /* BTKStateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTKStateHelper.h; sourceTree = "<group>"; };
 		63985115230B012E0015A46B /* BTKStateHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTKStateHelper.m; sourceTree = "<group>"; };
+		63985117230B03D70015A46B /* BTKStateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTKStateController.h; sourceTree = "<group>"; };
+		63985118230B03D70015A46B /* BTKStateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTKStateController.m; sourceTree = "<group>"; };
+		6398511A230B0ACF0015A46B /* BTKStateCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTKStateCollectionViewController.h; sourceTree = "<group>"; };
+		6398511B230B0ACF0015A46B /* BTKStateCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTKStateCollectionViewController.m; sourceTree = "<group>"; };
+		6398511D230B0C4F0015A46B /* BTKStateCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTKStateCollectionViewCell.h; sourceTree = "<group>"; };
+		6398511E230B0C4F0015A46B /* BTKStateCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTKStateCollectionViewCell.m; sourceTree = "<group>"; };
+		63985120230B124E0015A46B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +97,8 @@
 		6398510B230AFD630015A46B /* ModelController */ = {
 			isa = PBXGroup;
 			children = (
+				63985117230B03D70015A46B /* BTKStateController.h */,
+				63985118230B03D70015A46B /* BTKStateController.m */,
 			);
 			path = ModelController;
 			sourceTree = "<group>";
@@ -93,6 +106,8 @@
 		6398510C230AFD6A0015A46B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6398511A230B0ACF0015A46B /* BTKStateCollectionViewController.h */,
+				6398511B230B0ACF0015A46B /* BTKStateCollectionViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -100,6 +115,8 @@
 		6398510D230AFD710015A46B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6398511D230B0C4F0015A46B /* BTKStateCollectionViewCell.h */,
+				6398511E230B0C4F0015A46B /* BTKStateCollectionViewCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -108,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				639850F2230AFCA70015A46B /* AppDelegate.h */,
+				63985120230B124E0015A46B /* Assets.xcassets */,
 				639850F3230AFCA70015A46B /* AppDelegate.m */,
 				639850FD230AFCA80015A46B /* LaunchScreen.storyboard */,
 				63985100230AFCA80015A46B /* Info.plist */,
@@ -176,6 +194,7 @@
 			files = (
 				63985113230AFE900015A46B /* Flags in Resources */,
 				639850FF230AFCA80015A46B /* LaunchScreen.storyboard in Resources */,
+				63985121230B124E0015A46B /* Assets.xcassets in Resources */,
 				639850FA230AFCA70015A46B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,8 +208,11 @@
 			files = (
 				63985111230AFDBE0015A46B /* BTKState.m in Sources */,
 				63985116230B012E0015A46B /* BTKStateHelper.m in Sources */,
+				6398511C230B0ACF0015A46B /* BTKStateCollectionViewController.m in Sources */,
+				63985119230B03D70015A46B /* BTKStateController.m in Sources */,
 				63985102230AFCA80015A46B /* main.m in Sources */,
 				639850F4230AFCA70015A46B /* AppDelegate.m in Sources */,
+				6398511F230B0C4F0015A46B /* BTKStateCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
